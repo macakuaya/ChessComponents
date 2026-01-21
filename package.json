@@ -1,0 +1,27 @@
+{
+  "name": "@chess/components",
+  "version": "0.1.0",
+  "description": "Reusable Vue components for Chess.com prototypes - animations, celebrations, and sounds",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./board-animations": "./src/board-animations/index.js",
+    "./celebrations": "./src/celebrations/index.js",
+    "./sounds": "./src/sounds/index.js"
+  },
+  "files": [
+    "src"
+  ],
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "keywords": [
+    "chess",
+    "vue",
+    "animations",
+    "components"
+  ],
+  "author": "macakuaya",
+  "license": "MIT"
+}
